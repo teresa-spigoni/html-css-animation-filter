@@ -96,7 +96,7 @@
     transform: rotate(0deg);
 }
 @keyframes rotation {
-  to {transform: rotate(360deg)}
+  to {transform: rotate(-360deg)}
 }
 .ex-11-icon {
     font-size: 60px;
