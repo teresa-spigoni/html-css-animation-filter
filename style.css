@@ -64,6 +64,10 @@
 .ex-6-img:hover {
   filter: grayscale();
 }
+.ex-7-img:hover {
+  filter: invert(90%);
+  transition: filter 3s;
+}
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
