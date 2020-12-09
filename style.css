@@ -62,7 +62,7 @@
     width: 500px;
 }
 .ex-6-img:hover {
-  filter: grayscale();
+  filter: grayscale(100%);
 }
 .ex-7-img:hover {
   filter: invert(90%);
@@ -90,6 +90,13 @@
 }
 .ex-10-icon {
     font-size: 60px;
+    animation: rotation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transform: rotate(0deg);
+}
+@keyframes rotation {
+  to {transform: rotate(360deg)}
 }
 .ex-11-icon {
     font-size: 60px;
