@@ -68,6 +68,11 @@
   filter: invert(90%);
   transition: filter 3s;
 }
+.ex-8-img:hover {
+  filter: blur(10px);
+  border-radius: 30px;
+  transition: filter 3s, border-radius 3s;
+}
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
