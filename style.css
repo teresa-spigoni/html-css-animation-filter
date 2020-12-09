@@ -90,9 +90,7 @@
 }
 .ex-10-icon {
     font-size: 60px;
-    animation: rotation;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
+    animation: rotation 1s linear infinite;
     transform: rotate(0deg);
 }
 @keyframes rotation {
