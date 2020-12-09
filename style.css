@@ -76,6 +76,17 @@
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    animation: to-scale;
+    animation-duration: 3s;
+    transition: filter 3s, border-radius 3s;
+}
+.ex-9-img:hover {
+  filter: sepia(80%);
+  border-radius: 30px;
+}
+@keyframes to-scale {
+  from { margin: 0}
+  to { margin: 50px 100px}
 }
 .ex-10-icon {
     font-size: 60px;
