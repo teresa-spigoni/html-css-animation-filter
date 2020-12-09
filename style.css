@@ -29,6 +29,18 @@
     width: 100px;
     height: 100px;
     background: red;
+    animation: delete;
+    animation-duration: 5s;
+    opacity: 1;
+}
+@keyframes delete {
+  from {opacity: 1}
+  to {opacity: 0}
+}
+/* oppure */
+.ex-4-square:hover {
+  opacity: 0;
+  transition: opacity 3s;
 }
 .ex-5-square {
     margin: 20px;
